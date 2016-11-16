@@ -13,3 +13,4 @@ Após obter a chave no portal da Cielo, basta colar as linhas abaixo no gradle.p
 AccessKeyId="SUA_ACCESS_KEY_ID"
 
 SecretAccessKey="SUA_SECRET_ACCESS_KEY"
+
