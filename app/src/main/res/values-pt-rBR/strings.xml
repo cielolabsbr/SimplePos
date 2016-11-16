@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">POS Simples</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_item">Adicionar Item</string>
+    <string name="empty_order">Pedido Vazio</string>
+    <string name="clean_order">Limpar</string>
+    <string name="product_quantity">X%1$d</string>
+    <string name="currency_format">R$ %1$.2f</string>
+    <string name="per_unit"> por un.</string>
+    <string name="total">Total: </string>
+    <string name="pay_debit">Débito</string>
+    <string name="pay_credit">Credito</string>
+    <string name="payment_method">Forma de pagamento</string>
+
+    <string name="payment_sucess_title">Pagamento recebido!</string>
+    <string name="payment_sucess_message">Pagamento foi recebido com sucesso.</string>
+    <string name="payment_success_button">Prosseguir</string>
+    <string name="payment_canceled_button">Voltar</string>
+    <string name="payment_canceled_message">O pagamento foi cancelado.</string>
+    <string name="payment_canceled_title">Pagamento cancelado</string>
+    <string name="payment_error_button">Voltar</string>
+    <string name="payment_error_title">Falha ao receber o pagamento</string>
+
+    <string name="dialog_quantity_title">Quantidade do produto</string>
+    <string name="dialog_quantity_positive_button">Confirmar</string>
+    <string name="dialog_quantity_negative_button">Cancelar</string>
+    <string name="title_activity_product">Produtos</string>
+</resources>
