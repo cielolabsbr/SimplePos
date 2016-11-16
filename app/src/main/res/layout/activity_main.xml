@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.cielo.example.order.ui.OrderActivity">
+
+    <LinearLayout
+        android:background="@color/colorOrderTotal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/textView_total_order"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceLarge" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/listView_orderItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_weight="3" />
+
+        <TextView
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/empty_order" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_add_product"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_item" />
+
+        <Button
+            android:id="@+id/button_clean_list"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/clean_order" />
+
+        <Button
+            android:id="@+id/button_checkout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/checkout" />
+    </LinearLayout>
+</LinearLayout>

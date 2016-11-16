@@ -1,4 +1,4 @@
-# README #
+# Simple POS #
 
 Este exemplo foi criado para demonstrar a integração Order Manager Sdk com um app simples. 
 
