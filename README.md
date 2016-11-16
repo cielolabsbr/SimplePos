@@ -11,4 +11,5 @@ Para utilizar o exemplo é necessário adicionar as informações de Access Key 
 Após obter a chave no portal da Cielo, basta colar as linhas abaixo no gradle.properties:
 
 AccessKeyId="SUA_ACCESS_KEY_ID"
+
 SecretAccessKey="SUA_SECRET_ACCESS_KEY"
